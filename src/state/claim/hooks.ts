@@ -93,8 +93,6 @@ function fetchClaim(account: string): Promise<UserClaimData> {
 // null means we know it does not
 export function useUserClaimData(account: string | null | undefined): UserClaimData | null {
   const { chainId } = useActiveWeb3React()
-  console.log(chainId)
-
   const [claimInfo, setClaimInfo] = useState<{ [account: string]: UserClaimData | null }>({})
 
   useEffect(() => {
@@ -125,12 +123,11 @@ export function useUserClaimData(account: string | null | undefined): UserClaimD
 // check if user is in blob and has not yet claimed UNI
 export function useUserHasAvailableClaim(account: string | null | undefined): boolean {
   const userClaimData = useUserClaimData(account)
-  console.log(userClaimData)
   const distributorContract = useMerkleDistributorContract()
   const isClaimedResult = useSingleCallResult(distributorContract, 'isClaimed', [userClaimData?.index])
-  console.log(isClaimedResult)
+  console.log(userClaimData, isClaimedResult.loading, isClaimedResult.result)
   // user is in blob and contract marks as unclaimed
-  return Boolean(userClaimData && !isClaimedResult.loading && isClaimedResult.result?.[0] === false)
+  return Boolean(userClaimData && isClaimedResult.loading && !(isClaimedResult.result?.[0]))
 }
 
 export function useUserUnclaimedAmount(account: string | null | undefined): CurrencyAmount<Token> | undefined {
