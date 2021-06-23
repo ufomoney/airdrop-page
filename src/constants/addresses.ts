@@ -23,7 +23,7 @@ export const GOVERNANCE_ADDRESS: AddressMap = constructSameAddressMap(
 export const TIMELOCK_ADDRESS: AddressMap = constructSameAddressMap('0x1a9C8182C09F50C8318d769245beA52c32BE35BC', false)
 export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]:
-  '0x2D2Cb990015935EE7fd9AaD104146450064250c7',
+  '0x375ee10Ca4280DB932c2CbfAd378298Bb1Aff7d1',
 }
 export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
   [SupportedChainId.MAINNET]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8',
