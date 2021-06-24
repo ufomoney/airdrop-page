@@ -56,7 +56,7 @@ const HeaderRow = styled.div`
 `
 
 const ContentWrapper = styled.div`
-  background-color: ${({ theme }) => theme.bg0};
+  background-color: transparent;
   padding: 0 1rem 1rem 1rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -65,6 +65,8 @@ const ContentWrapper = styled.div`
 `
 
 const UpperSection = styled.div`
+  background: ${({ theme }) => theme.bg10};
+  color: ${({ theme }) => theme.primaryText2};
   position: relative;
 
   h5 {
@@ -95,7 +97,7 @@ const OptionGrid = styled.div`
 
 const HoverText = styled.div`
   text-decoration: none;
-  color: ${({ theme }) => theme.text1};
+  color: ${({ theme }) => theme.primaryText2};
   display: flex;
   align-items: center;
 

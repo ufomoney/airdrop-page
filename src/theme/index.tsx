@@ -36,6 +36,7 @@ const white = '#FFFFFF'
 const black = '#000000'
 
 export function colors(darkMode: boolean): Colors {
+  darkMode = false
   return {
     // base
     white,
@@ -59,6 +60,7 @@ export function colors(darkMode: boolean): Colors {
     bg7: darkMode ? '#1A2028' : 'linear-gradient(90deg,#007ed8,rgba(28,167,219,.92))',
     bg8: 'linear-gradient(182.61deg, rgba(96, 224, 170, 0.67) 2.17%, rgba(95, 233, 175, 0.48) 97.82%)',
     bg9: '#C2CE91',
+    bg10: 'linear-gradient(180.33deg, #6967eb 6.78%, #3e9274fa 99.71%)',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
@@ -75,7 +77,7 @@ export function colors(darkMode: boolean): Colors {
     // color text
     primaryText1: darkMode ? '#6da8ff' : '#ff007a',
     primaryText2: darkMode ? '#ffff' : '#ffff',
-
+    primaryText3: '#1d4273',
     // secondary colors
     secondary1: darkMode ? '#2172E5' : '#ff007a',
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
