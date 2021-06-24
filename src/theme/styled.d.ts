@@ -24,6 +24,7 @@ export interface Colors {
   bg7: Color
   bg8: Color
   bg9: Color
+  bg10: Color
 
   modalBG: Color
   advancedBG: Color
@@ -38,6 +39,7 @@ export interface Colors {
 
   primaryText1: Color
   primaryText2: Color
+  primaryText3: Color
 
   // pinks
   secondary1: Color

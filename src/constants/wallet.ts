@@ -1,7 +1,7 @@
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import INJECTED_ICON_URL from '../assets/images/arrow-right.svg'
 import COINBASE_ICON_URL from '../assets/images/coinbaseWalletIcon.svg'
-import METAMASK_ICON_URL from '../assets/images/metamask.png'
+import METAMASK_ICON_URL from '../assets/svg/binance.svg'
 import { injected } from '../connectors'
 
 export interface WalletInfo {
@@ -28,7 +28,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
   },
   METAMASK: {
     connector: injected,
-    name: 'MetaMask',
+    name: 'BSC Wallet',
     iconURL: METAMASK_ICON_URL,
     description: 'Easy-to-use browser extension.',
     href: null,
