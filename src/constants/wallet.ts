@@ -34,13 +34,4 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     href: null,
     color: '#E8831D',
   },
-  COINBASE_LINK: {
-    name: 'Open in Coinbase Wallet',
-    iconURL: COINBASE_ICON_URL,
-    description: 'Open in Coinbase Wallet app.',
-    href: 'https://go.cb-w.com/mtUDhEZPy1',
-    color: '#315CF5',
-    mobile: true,
-    mobileOnly: true,
-  },
 }
