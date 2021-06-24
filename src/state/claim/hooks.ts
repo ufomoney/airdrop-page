@@ -96,7 +96,7 @@ export function useUserClaimData(account: string | null | undefined): UserClaimD
   const [claimInfo, setClaimInfo] = useState<{ [account: string]: UserClaimData | null }>({})
 
   useEffect(() => {
-    if (!account || chainId !== 97) return
+    if (!account || chainId !== 56) return
 
     fetchClaim(account)
       .then((accountClaimInfo) =>
@@ -117,7 +117,7 @@ export function useUserClaimData(account: string | null | undefined): UserClaimD
       })
   }, [account, chainId])
 
-  return account && chainId === 97 ? claimInfo[account] : null
+  return account && chainId === 56 ? claimInfo[account] : null
 }
 
 // check if user is in blob and has not yet claimed UNI

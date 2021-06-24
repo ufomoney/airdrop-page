@@ -5,7 +5,7 @@ import { SupportedChainId } from './chains'
 
 type AddressMap = { [chainId: number]: string }
 
-export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x79b8bb47684fa2a5478e735412de3cf7e022bc5f', false)
+export const UNI_ADDRESS: AddressMap = constructSameAddressMap('0x2E427a0EbeAf2656A23FC289b12CE48f9CC3Fb7A', false)
 export const MULTICALL2_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696', false),
   [SupportedChainId.ARBITRUM_KOVAN]: '0xc80e33a6f02cf08557a0ca3d94d1474d73f64bc1',
@@ -23,7 +23,7 @@ export const GOVERNANCE_ADDRESS: AddressMap = constructSameAddressMap(
 export const TIMELOCK_ADDRESS: AddressMap = constructSameAddressMap('0x1a9C8182C09F50C8318d769245beA52c32BE35BC', false)
 export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
   [SupportedChainId.BSC]:
-  '0x375ee10Ca4280DB932c2CbfAd378298Bb1Aff7d1',
+  '0x587d4e3Cdfa13ada366dCAfd7cf74BCBF8Ad523C',
 }
 export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
   [SupportedChainId.MAINNET]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8',

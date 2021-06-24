@@ -6,5 +6,5 @@ export enum SupportedChainId {
   KOVAN = 42,
   ARBITRUM_KOVAN = 144545313136048,
   ARBITRUM_ONE = 42161,
-  BSC = 97,
+  BSC = 56,
 }

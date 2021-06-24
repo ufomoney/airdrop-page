@@ -24,7 +24,7 @@ const NETWORK_URLS: {
   [SupportedChainId.KOVAN]: `https://kovan.infura.io/v3/${INFURA_KEY}`,
   [SupportedChainId.ARBITRUM_KOVAN]: `https://kovan5.arbitrum.io/rpc`,
   [SupportedChainId.ARBITRUM_ONE]: `https://arb1.arbitrum.io/rpc`,
-  [SupportedChainId.BSC]: `https://data-seed-prebsc-1-s1.binance.org:8545`,
+  [SupportedChainId.BSC]: `https://bsc-dataseed.binance.org`,
 }
 
 const SUPPORTED_CHAIN_IDS: SupportedChainId[] = [
@@ -40,7 +40,7 @@ const SUPPORTED_CHAIN_IDS: SupportedChainId[] = [
 
 export const network = new NetworkConnector({
   urls: NETWORK_URLS,
-  defaultChainId: 97,
+  defaultChainId: 56,
 })
 
 let networkLibrary: Web3Provider | undefined
