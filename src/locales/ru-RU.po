@@ -63,8 +63,8 @@ msgstr "-{feeAmountFormatted}%"
 #: src/components/earn/PoolCard.tsx
 #: src/pages/Earn/Manage.tsx
 #: src/pages/Earn/Manage.tsx
-msgid "0 UNI / week"
-msgstr "0 UNI в неделю"
+msgid "0 SUFO / week"
+msgstr "0 SUFO в неделю"
 
 #: src/components/FeeSelector/index.tsx
 msgid "0.05% fee"
@@ -124,12 +124,12 @@ msgid "<0>Unlock voting</0> to prepare for the next proposal."
 msgstr "<0>Разблокируйте голосование</0>, чтобы подготовиться к следующему предложению."
 
 #: src/components/claim/ClaimModal.tsx
-msgid "<0>🎉 </0>Welcome to team Unicorn :) <1>🎉</1>"
+msgid "<0>🎉 </0>Welcome to team :) <1>🎉</1>"
 msgstr "<0>🎉 </0>Добро пожаловать в команду единорогов :) <1>🎉</1>"
 
 #: src/pages/Vote/index.tsx
-msgid "A minimum threshold of 1% of the total UNI supply is required to submit proposals"
-msgstr "Для внесения предложений требуется минимальный порог в 1% от общего предложения UNI"
+msgid "A minimum threshold of 1% of the total SUFO supply is required to submit proposals"
+msgstr "Для внесения предложений требуется минимальный порог в 1% от общего предложения SUFO"
 
 #: src/components/Menu/index.tsx
 msgid "About"
@@ -258,8 +258,8 @@ msgid "Are you sure?"
 msgstr "Вы уверены?"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "As a member of the Uniswap community you may claim UNI to be used for voting and governance.<0/><1/><2>Read more about UNI</2>"
-msgstr "Как член сообщества Uniswap, вы можете востребовать токены UNI, которые используются для голосования и управления.<0/><1/><2>Подробнее об UNI</2>"
+msgid "As a member of the Uniswap community you may claim SUFO to be used for voting and governance.<0/><1/><2>Read more about SUFO</2>"
+msgstr "Как член сообщества Uniswap, вы можете востребовать токены SUFO, которые используются для голосования и управления.<0/><1/><2>Подробнее об SUFO</2>"
 
 #: src/pages/MigrateV2/MigrateV2Pair.tsx
 msgid "At least {0} {1} and {2} {3} will be refunded to your wallet due to selected price range."
@@ -336,25 +336,25 @@ msgstr "Востребовать"
 #: src/components/claim/AddressClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
-msgid "Claim UNI"
-msgstr "Востребовать UNI"
+msgid "Claim SUFO"
+msgstr "Востребовать SUFO"
 
 #: src/components/claim/AddressClaimModal.tsx
-msgid "Claim UNI Token"
-msgstr "Claim UNI Token"
+msgid "Claim SUFO Token"
+msgstr "Claim SUFO Token"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/ClaimRewardModal.tsx
-msgid "Claim accumulated UNI rewards"
-msgstr "Востребовать начисленные награды в UNI"
+msgid "Claim accumulated SUFO rewards"
+msgstr "Востребовать начисленные награды в SUFO"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Claim fees"
 msgstr "Востребовать комиссии"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "Claim your UNI tokens"
-msgstr "Востребуйте свои токены UNI"
+msgid "Claim your SUFO tokens"
+msgstr "Востребуйте свои токены SUFO"
 
 #: src/components/claim/AddressClaimModal.tsx
 msgid "Claimed"
@@ -362,21 +362,21 @@ msgstr "Востребовано"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
-msgid "Claimed UNI!"
-msgstr "Вы востребовали UNI!"
+msgid "Claimed SUFO!"
+msgstr "Вы востребовали SUFO!"
 
 #: src/components/claim/AddressClaimModal.tsx
 msgid "Claiming"
 msgstr "Востребование"
 
 #: src/components/Header/index.tsx
-msgid "Claiming UNI"
-msgstr "Востребование UNI"
+msgid "Claiming SUFO"
+msgstr "Востребование SUFO"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
-msgid "Claiming {0} UNI"
-msgstr "Востребование {0} UNI"
+msgid "Claiming {0} SUFO"
+msgstr "Востребование {0} SUFO"
 
 #: src/pages/AddLiquidity/index.tsx
 msgid "Clear All"
@@ -567,24 +567,24 @@ msgid "Deposit Amounts"
 msgstr "Внесите суммы"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Deposit UNI-V2 LP Tokens"
-msgstr "Внести LP-токены UNI-V2"
+msgid "Deposit SUFO-V2 LP Tokens"
+msgstr "Внести LP-токены SUFO-V2"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Deposit liquidity"
 msgstr "Внести ликвидность"
 
 #: src/pages/Earn/index.tsx
-msgid "Deposit your Liquidity Provider tokens to receive UNI, the Uniswap protocol governance token."
-msgstr "Внесите токены поставщика ликвидности, чтобы получать UNI, токен управления протоколом Uniswap."
+msgid "Deposit your Liquidity Provider tokens to receive SUFO, the Uniswap protocol governance token."
+msgstr "Внесите токены поставщика ликвидности, чтобы получать SUFO, токен управления протоколом Uniswap."
 
 #: src/components/earn/UnstakingModal.tsx
 msgid "Deposited liquidity:"
 msgstr "Внесённая ликвидность:"
 
 #: src/components/earn/StakingModal.tsx
-msgid "Deposited {0} UNI-V2"
-msgstr "Внесено {0} UNI-V2"
+msgid "Deposited {0} SUFO-V2"
+msgstr "Внесено {0} SUFO-V2"
 
 #: src/components/earn/StakingModal.tsx
 msgid "Depositing Liquidity"
@@ -627,8 +627,8 @@ msgid "Don’t see one of your v2 positions? <0>Import it.</0>"
 msgstr "Не видите какую-то из ваших позиций в V2? <0>Импортируйте её.</0>"
 
 #: src/components/vote/DelegateModal.tsx
-msgid "Earned UNI tokens represent voting shares in Uniswap governance."
-msgstr "Заработанные токены UNI представляют собой права голоса в управлении Uniswap."
+msgid "Earned SUFO tokens represent voting shares in Uniswap governance."
+msgstr "Заработанные токены SUFO представляют собой права голоса в управлении Uniswap."
 
 #: src/state/swap/hooks.ts
 msgid "Enter a recipient"
@@ -639,8 +639,8 @@ msgid "Enter a valid slippage percentage"
 msgstr "Введите корректный процент проскальзывания"
 
 #: src/components/claim/AddressClaimModal.tsx
-msgid "Enter an address to trigger a UNI claim. If the address has any claimable UNI it will be sent to them on submission."
-msgstr "Введите адрес, чтобы востребовать UNI. Если у адреса есть права требования на UNI, они будут высланы на него при отправке транзакции."
+msgid "Enter an address to trigger a SUFO claim. If the address has any claimable SUFO it will be sent to them on submission."
+msgstr "Введите адрес, чтобы востребовать SUFO. Если у адреса есть права требования на SUFO, они будут высланы на него при отправке транзакции."
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
@@ -1015,8 +1015,8 @@ msgid "Once you are happy with the rate click supply to review."
 msgstr "Как только вы будете довольны курсом, нажмите «Внести», чтобы перейти к подтверждению."
 
 #: src/pages/Vote/VotePage.tsx
-msgid "Only UNI votes that were self delegated or delegated to another address before block {0} are eligible for voting."
-msgstr "Право на голосование имеют только голоса UNI, которые делегированы себе или на другой адрес до блока {0}."
+msgid "Only SUFO votes that were self delegated or delegated to another address before block {0} are eligible for voting."
+msgstr "Право на голосование имеют только голоса SUFO, которые делегированы себе или на другой адрес до блока {0}."
 
 #: src/components/Web3ReactManager/index.tsx
 msgid "Oops! An unknown error occurred. Please refresh the page, or visit from another browser or device."
@@ -1143,8 +1143,8 @@ msgid "Rates"
 msgstr "Тарифы"
 
 #: src/pages/Earn/index.tsx
-msgid "Read more about UNI"
-msgstr "Подробнее о UNI"
+msgid "Read more about SUFO"
+msgstr "Подробнее о SUFO"
 
 #: src/pages/Vote/index.tsx
 msgid "Read more about Uniswap governance"
@@ -1288,8 +1288,8 @@ msgid "Something went wrong"
 msgstr "Что-то пошло не так"
 
 #: src/pages/Earn/Manage.tsx
-msgid "Step 1. Get UNI-V2 Liquidity tokens"
-msgstr "Шаг 1. Получите токены ликвидности UNI-V2"
+msgid "Step 1. Get SUFO-V2 Liquidity tokens"
+msgstr "Шаг 1. Получите токены ликвидности SUFO-V2"
 
 #: src/components/vote/VoteModal.tsx
 msgid "Submitting Vote"
@@ -1447,37 +1447,37 @@ msgid "Turn On Expert Mode"
 msgstr "Включить экспертный режим"
 
 #: src/components/Popups/ClaimPopup.tsx
-msgid "UNI has arrived"
-msgstr "UNI здесь"
+msgid "SUFO has arrived"
+msgstr "SUFO здесь"
 
 #: src/components/Header/UniBalanceContent.tsx
-msgid "UNI in circulation:"
-msgstr "UNI в обращении:"
+msgid "SUFO in circulation:"
+msgstr "SUFO в обращении:"
 
 #: src/components/Header/UniBalanceContent.tsx
-msgid "UNI price:"
-msgstr "Цена UNI:"
+msgid "SUFO price:"
+msgstr "Цена SUFO:"
 
 #: src/pages/Vote/index.tsx
-msgid "UNI tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
-msgstr "Токены UNI представляют собой права голоса в управлении Uniswap. Вы можете проголосовать по каждому предложению самостоятельно или делегировать свои голоса третьей стороне."
+msgid "SUFO tokens represent voting shares in Uniswap governance. You can vote on each proposal yourself or delegate your votes to a third party."
+msgstr "Токены SUFO представляют собой права голоса в управлении Uniswap. Вы можете проголосовать по каждому предложению самостоятельно или делегировать свои голоса третьей стороне."
 
 #: src/pages/RemoveLiquidity/index.tsx
-msgid "UNI {0}/{1} Burned"
-msgstr "UNI {0}/{1} сожжено"
+msgid "SUFO {0}/{1} Burned"
+msgstr "SUFO {0}/{1} сожжено"
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
-msgstr "Требуются LP-токены UNI-V2. Когда вы добавите ликвидность в пул {0}-{1}, вы сможете застейкать токены ликвидности на этой странице."
+msgid "SUFO-V2 LP tokens are required. Once you've added liquidity to the {0}-{1} pool you can stake your liquidity tokens on this page."
+msgstr "Требуются LP-токены SUFO-V2. Когда вы добавите ликвидность в пул {0}-{1}, вы сможете застейкать токены ликвидности на этой странице."
 
 #: src/pages/Earn/Manage.tsx
-msgid "UNI-V2 {0}-{1}"
-msgstr "UNI-V2 {0}-{1}"
+msgid "SUFO-V2 {0}-{1}"
+msgstr "SUFO-V2 {0}-{1}"
 
 #: src/components/earn/ClaimRewardModal.tsx
 #: src/components/earn/UnstakingModal.tsx
-msgid "Unclaimed UNI"
-msgstr "Невостребованные UNI"
+msgid "Unclaimed SUFO"
+msgstr "Невостребованные SUFO"
 
 #: src/pages/Pool/PositionPage.tsx
 msgid "Unclaimed fees"
@@ -1568,8 +1568,8 @@ msgid "V3 {0} Price:"
 msgstr "Цена {0} в V3:"
 
 #: src/components/Header/UniBalanceContent.tsx
-msgid "View UNI Analytics"
-msgstr "Просмотреть аналитику UNI"
+msgid "View SUFO Analytics"
+msgstr "Просмотреть аналитику SUFO"
 
 #: src/pages/Pool/index.tsx
 msgid "View V2 Liquidity"
@@ -1643,12 +1643,12 @@ msgid "When you claim without withdrawing your liquidity remains in the mining p
 msgstr "Если вы востребуете без вывода, ваша ликвидность останется в майнинговом пуле."
 
 #: src/pages/Earn/Manage.tsx
-msgid "When you withdraw, the contract will automagically claim UNI on your behalf!"
-msgstr "При выводе контракт автоматически востребует для вас начисленные UNI!"
+msgid "When you withdraw, the contract will automagically claim SUFO on your behalf!"
+msgstr "При выводе контракт автоматически востребует для вас начисленные SUFO!"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "When you withdraw, your UNI is claimed and your liquidity is removed from the mining pool."
-msgstr "При выводе вы автоматически востребуете начисленные UNI, и ваша ликвидность удалится из майнингового пула."
+msgid "When you withdraw, your SUFO is claimed and your liquidity is removed from the mining pool."
+msgstr "При выводе вы автоматически востребуете начисленные SUFO, и ваша ликвидность удалится из майнингового пула."
 
 #: src/components/earn/UnstakingModal.tsx
 #: src/pages/Earn/Manage.tsx
@@ -1665,12 +1665,12 @@ msgid "Withdraw deposited liquidity"
 msgstr "Вывести внесённую ликвидность"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrawing {0} UNI-V2"
-msgstr "Вывод {0} UNI-V2"
+msgid "Withdrawing {0} SUFO-V2"
+msgstr "Вывод {0} SUFO-V2"
 
 #: src/components/earn/UnstakingModal.tsx
-msgid "Withdrew UNI-V2!"
-msgstr "Вы вывели UNI-V2!"
+msgid "Withdrew SUFO-V2!"
+msgstr "Вы вывели SUFO-V2!"
 
 #: src/pages/Swap/index.tsx
 msgid "Wrap"
@@ -1727,8 +1727,8 @@ msgid "You will receive"
 msgstr "Вы получите"
 
 #: src/components/Header/UniBalanceContent.tsx
-msgid "Your UNI Breakdown"
-msgstr "Разбивка ваших UNI"
+msgid "Your SUFO Breakdown"
+msgstr "Разбивка ваших SUFO"
 
 #: src/pages/Pool/v2.tsx
 msgid "Your V2 liquidity"
@@ -1814,8 +1814,8 @@ msgid "Your transactions will appear here..."
 msgstr "Ваши транзакции появятся здесь..."
 
 #: src/pages/Earn/Manage.tsx
-msgid "Your unclaimed UNI"
-msgstr "Ваши невостребованные UNI"
+msgid "Your unclaimed SUFO"
+msgstr "Ваши невостребованные SUFO"
 
 #: src/components/Settings/index.tsx
 msgid "confirm"
@@ -1888,24 +1888,24 @@ msgstr "{0} в ожидании"
 #: src/components/claim/ClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
 #: src/components/claim/ClaimModal.tsx
-msgid "{0} UNI"
-msgstr "{0} UNI"
+msgid "{0} SUFO"
+msgstr "{0} SUFO"
 
 #: src/components/earn/PoolCard.tsx
 #: src/components/earn/PoolCard.tsx
 #: src/components/earn/StakingModal.tsx
 #: src/pages/Earn/Manage.tsx
 #: src/pages/Earn/Manage.tsx
-msgid "{0} UNI / week"
-msgstr "{0} UNI в неделю"
+msgid "{0} SUFO / week"
+msgstr "{0} SUFO в неделю"
 
 #: src/components/earn/StakingModal.tsx
-msgid "{0} UNI-V2"
-msgstr "{0} UNI-V2"
+msgid "{0} SUFO-V2"
+msgstr "{0} SUFO-V2"
 
 #: src/pages/Earn/Manage.tsx
-msgid "{0} UNI-V2 LP tokens available"
-msgstr "{0} доступных LP-токенов UNI-V2"
+msgid "{0} SUFO-V2 LP tokens available"
+msgstr "{0} доступных LP-токенов SUFO-V2"
 
 #: src/components/vote/VoteModal.tsx
 msgid "{0} Votes"
@@ -1963,12 +1963,12 @@ msgid "{0}/{1} LP Tokens"
 msgstr "LP-токены {0}/{1}"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "{SOCKS_AMOUNT} UNI"
-msgstr "{SOCKS_AMOUNT} UNI"
+msgid "{SOCKS_AMOUNT} SUFO"
+msgstr "{SOCKS_AMOUNT} SUFO"
 
 #: src/components/claim/ClaimModal.tsx
-msgid "{USER_AMOUNT} UNI"
-msgstr "{USER_AMOUNT} UNI"
+msgid "{USER_AMOUNT} SUFO"
+msgstr "{USER_AMOUNT} SUFO"
 
 #: src/pages/RemoveLiquidity/V3.tsx
 msgid "{percentForSlider}%"
