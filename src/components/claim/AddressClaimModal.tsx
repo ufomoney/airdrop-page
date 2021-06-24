@@ -37,9 +37,7 @@ const ConfirmOrLoadingWrapper = styled.div<{ activeBG: boolean }>`
   width: 100%;
   padding: 24px;
   position: relative;
-  background: ${({ activeBG }) =>
-    activeBG &&
-    'radial-gradient(76.02% 75.41% at 1.84% 0%, rgba(255, 0, 122, 0.2) 0%, rgba(33, 114, 229, 0.2) 100%), #FFFFFF;'};
+  background: ${({ activeBG }) => activeBG && 'linear-gradient(90deg, #007ed9 16.36%, #00dffcf0 106.83%);'};
 `
 
 const ConfirmedIcon = styled(ColumnCenter)`
@@ -120,8 +118,8 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
               <Trans>
-                Enter an address to trigger a SUFO claim. If the address has any claimable SUFO it will be sent to them on
-                submission.
+                Enter an address to trigger a SUFO claim. If the address has any claimable SUFO it will be sent to them
+                on submission.
               </Trans>
             </TYPE.subHeader>
             <AddressInputPanel value={typed} onChange={handleRecipientType} />
@@ -150,7 +148,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
           <CardBGImageSmaller desaturate />
           <RowBetween>
             <div />
-            <CloseIcon onClick={wrappedOnDismiss} style={{ zIndex: 99 }} stroke="black" />
+            <CloseIcon onClick={wrappedOnDismiss} style={{ zIndex: 99 }} stroke="white" />
           </RowBetween>
           <ConfirmedIcon>
             {!claimConfirmed ? (
@@ -161,23 +159,23 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
           </ConfirmedIcon>
           <AutoColumn gap="100px" justify={'center'}>
             <AutoColumn gap="12px" justify={'center'}>
-              <TYPE.largeHeader fontWeight={600} color="black">
+              <TYPE.largeHeader fontWeight={600} color="#5dd1c6">
                 {claimConfirmed ? <Trans>Claimed</Trans> : <Trans>Claiming</Trans>}
               </TYPE.largeHeader>
               {!claimConfirmed && (
-                <Text fontSize={36} color={'#ff007a'} fontWeight={800}>
+                <Text fontSize={36} color={'#ffff'} fontWeight={800}>
                   <Trans>{unclaimedAmount?.toFixed(0, { groupSeparator: ',' } ?? '-')} SUFO</Trans>
                 </Text>
               )}
               {parsedAddress && (
-                <TYPE.largeHeader fontWeight={600} color="black">
+                <TYPE.largeHeader fontWeight={600} color="#fff">
                   <Trans>for {shortenAddress(parsedAddress)}</Trans>
                 </TYPE.largeHeader>
               )}
             </AutoColumn>
             {claimConfirmed && (
               <>
-                <TYPE.subHeader fontWeight={500} color="black">
+                <TYPE.subHeader fontWeight={500} color="white">
                   <span role="img" aria-label="party-hat">
                     🎉{' '}
                   </span>
@@ -189,7 +187,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
               </>
             )}
             {attempting && !hash && (
-              <TYPE.subHeader color="black">
+              <TYPE.subHeader color="white">
                 <Trans>Confirm this transaction in your wallet</Trans>
               </TYPE.subHeader>
             )}

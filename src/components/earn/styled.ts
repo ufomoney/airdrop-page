@@ -39,15 +39,13 @@ export const CardBGImage = styled.span<{ desaturate?: boolean }>`
 
 export const CardBGImageSmaller = styled.span<{ desaturate?: boolean }>`
   background: url(${nloImage});
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: 40%;
   position: absolute;
   border-radius: 12px;
-  opacity: 0.15;
   background-size: contain;
-  background-repeat: space;
-  user-select: none;;
-  ${({ desaturate }) => desaturate && `filter: saturate(0)`}
+  background-repeat: no-repeat;
+  user-select: none; ;
 `
 
 export const CardNoise = styled.span`
