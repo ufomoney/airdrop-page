@@ -13,7 +13,7 @@ export default {
   formatOptions: {
     lineNumbers: false,
   },
-  locales: ['en-US', 'ru-RU'],
+  locales: ['ru-RU'],
   orderBy: 'messageId',
   rootDir: '.',
   runtimeConfigModule: ['@lingui/core', 'i18n'],
