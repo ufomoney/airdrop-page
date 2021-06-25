@@ -15,7 +15,7 @@ const plurals: any = {
 }
 
 export async function dynamicActivate(locale: SupportedLocale) {
-  const { messages } = await import(`@lingui/loader!./locales/ru-RU.po`)
+  const { messages } = await import(`@lingui/loader!./locales/${locale}.po`)
   i18n.loadLocaleData(locale, { plurals: () => plurals[locale] })
   i18n.load(locale, messages)
   i18n.activate(locale)
