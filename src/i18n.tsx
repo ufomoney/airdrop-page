@@ -4,14 +4,14 @@ import { I18nProvider } from '@lingui/react'
 import { ReactNode } from 'react'
 import { useActiveLocale, useSetLocaleFromUrl } from 'hooks/useActiveLocale'
 import { SupportedLocale } from 'constants/locales'
-import { ru, PluralCategory } from 'make-plural/plurals'
+import { en, PluralCategory } from 'make-plural/plurals'
 
 type LocalePlural = {
   [key in SupportedLocale]: (n: number | string, ord?: boolean) => PluralCategory
 }
 
 const plurals: any = {
-  'ru-RU': ru,
+  'en-US': en,
 }
 
 export async function dynamicActivate(locale: SupportedLocale) {
